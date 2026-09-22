@@ -1,0 +1,6 @@
+{
+  "services": [
+    {"name": "local-web", "type": "http", "url": "http://localhost:8080/nginx-health"},
+    {"name": "local-ssh", "type": "tcp", "host": "127.0.0.1", "port": 22}
+  ]
+}
